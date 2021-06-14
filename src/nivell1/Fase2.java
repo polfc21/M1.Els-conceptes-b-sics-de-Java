@@ -6,7 +6,7 @@ public class Fase2 {
         int anysTraspas = 4;
         int nreAnysTraspas = 0;
         int anyNaix = 1987;
-        for (int i = ANY_TRASPAS; i < anyNaix; i+=anysTraspas){
+        for (int i = ANY_TRASPAS; i <= anyNaix; i+=anysTraspas){
             System.out.print(i + " ");
             nreAnysTraspas++;
         }
